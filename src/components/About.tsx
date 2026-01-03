@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 import aboutImage from "@/assets/about-image.jpg";
 
@@ -14,7 +14,7 @@ const About = () => {
               <img
                 src={aboutImage}
                 alt="About our agency"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
               />
             </div>
           </div>
